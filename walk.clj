@@ -21,4 +21,5 @@
 
 (defn timed-print []
   ; 900 msecs on my machine
+  ; That's roughly 11 per msec
   (time (print (take 10000 omega-walk4))))
